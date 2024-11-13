@@ -18,9 +18,9 @@
     </script>
 </head>
 <body class="max-w-full mx-auto">
-    <!-- <header class="flex items-center justify-between px-28 py-6 bg-[#F3FCF7]">
+     <header class=" items-center justify-between lg:flex  lg:px-28 py-6 bg-[#F3FCF7] pl-10 ">
         <a href=""><img src="./img/foodieslogo.png" alt=""></a>
-        <nav class="flex gap-x-10 pr-24">
+        <nav class="flex gap-x-10 pr-24 hidden lg:visible lg:inline-block lg:flex">
             
             <a href="#" class="relative flex flex-col items-center group hover:text-[#06C167]">
               Home
@@ -43,35 +43,38 @@
               <span class="absolute bottom-0 transform translate-y-3 h-2 w-2 bg-[#06C167] rounded-full opacity-0 group-hover:opacity-100 "></span>
             </a>
           </nav>
-    </header> -->
+    </header> 
 
     <main class="py-10">
-        <!-- <div class="flex gap-x-32 items-center  bg-[#F3FCF7] -mt-10 pt-10">
-            <div class="grid grid-cols-1 gap-2 gap-y-5 px-28 -">
+      <div class="gap-x-32 text-center items-center  bg-[#F3FCF7] -mt-10 pt-10 lg:flex lg:text-left">
+            <div class="grid grid-cols-1 gap-2 gap-y-5 lg:px-28 px-5">
                 <h1 class="text-[72px] font-semibold leading-[5rem]">We're Serious <br> For Food.</h1>
-                <p class="text-[16px] font-normal">We strive to provide a space where guests can connect with <br> themselves and explore their full potential, offering a safe place.</p>
+                <p class="text-[16px] font-normal leading-[18px]">We strive to provide a space where guests can connect with <br> themselves and explore their full potential, offering a safe place.</p>
 
-                <div class="bg-[#06C167] flex items-center w-[200px] text-white h-[68px] justify-center cursor-pointer text-[16px] font-normal mb-36">
+              <div class="flex justify-center lg:justify-start mt-10 lg:mt-0">
+                <div class="bg-[#06C167] flex items-center lg:w-[200px] w-[320px] text-white h-[68px] justify-center cursor-pointer text-[16px] font-normal mb-36">
                     <a href="" class="flex gap-x-7 items-center">Get Started <div><img src="./img/longarrow.png" alt=""></div></a>
                 </div>
+              </div>
 
-                <div class="flex gap-x-10  ">
-                  <div><img src="/img/logoip1.png" alt=""></div><div><img src="./img/logoip2.png" alt=""></div><div><img src="./img/logoip3.png" alt=""></div>
-                </div>
+                
 
             </div>
 
             <div class="">
-              <img src="./img/ratings.png" alt="" class="absolute right-[560px] top-[420px]">
-                <img src="./img/dots.png" alt="" class="absolute -bottom-5 right-56 ">
-                <img src="./img/review.png" alt="" class="absolute right-48 top-80">
-                <img src="./img/woman.png" alt="">
-            </div>
-        </div> -->
+              <img src="./img/ratings.png" alt="" class="absolute right-[560px] top-[420px] hidden lg:visible lg:inline-block">
+                <img src="./img/dots.png" alt="" class="absolute -bottom-5 right-56 hidden lg:visible lg:inline-block">
+                <img src="./img/review.png" alt="" class="absolute right-48 top-80 hidden lg:visible lg:inline-block">
 
-        <!-- <section class="border-t-2 border-b-2 w-[1170px] mx-52 my-32">
-          <div class="flex gap-x-32 justify-center py-7">
-            <div class="flex items-center gap-5">
+                <div class="flex justify-center"> 
+                <img src="./img/woman.png" alt="">
+              </div>
+            </div>
+        </div> 
+
+         <section class="border-t-2 border-b-2 max-w-full mx-10 my-32 grid justify-center">
+          <div class="gap-y-10  justify-center py-7 lg:flex lg:gap-x-32 grid">
+            <div class="flex items-center gap-5 text-center">
               <img src="./img/truck.png" alt="" class="border-none rounded-md p-4 bg-[#F3FCF7]">
               <div>
                 <h2 class="text-[18px] font-medium">Free Shipping</h2>
@@ -82,7 +85,7 @@
             <div class="flex items-center gap-5">
               <img src="./img/wallet.png" alt="" class="border-none rounded-md p-4 bg-[#F3FCF7]">
               <div>
-                <h2 class="text-[18px] font-medium">Free Shipping</h2>
+                <h2 class="text-[18px] font-medium">Quick Payment</h2>
                 <p class="text-[#1D1D1F] text-[14px] font-medium opacity-[75%]">Orders over $140</p>
               </div>
             </div>
@@ -90,7 +93,7 @@
             <div class="flex items-center gap-5">
               <img src="./img/percent.png" alt="" class="border-none rounded-md p-4 bg-[#F3FCF7]">
               <div>
-                <h2 class="text-[18px] font-medium">Free Shipping</h2>
+                <h2 class="text-[18px] font-medium">Special Promo</h2>
                 <p class="text-[#1D1D1F] text-[14px] font-medium opacity-[75%]">Orders over $140</p>
               </div>
             </div>
@@ -98,40 +101,41 @@
             <div class="flex items-center gap-5">
               <img src="./img/headphones.png" alt="" class="border-none rounded-md p-4 bg-[#F3FCF7]">
               <div>
-                <h2 class="text-[18px] font-medium">Free Shipping</h2>
+                <h2 class="text-[18px] font-medium">24/7 Support</h2>
                 <p class="text-[#1D1D1F] text-[14px] font-medium opacity-[75%]">Orders over $140</p>
               </div>
             </div>
           </div>
-        </section> -->
+        </section> 
 
-        <!-- <section class="mb-36">
-          <div class="flex justify-between px-64 items-center">
-            <div>
+         <section class="mb-36">
+          <div class=" justify-between items-center lg:px-56 lg:flex">
+            <div class="flex justify-center">
               <img src="./img/green.png" alt="" class="border-x-8 px-9 pb-14 bg-[#F3FAFB] border-none">
             </div>
             <div>
-              <h3 class="text-[15px] font-medium mt-16">Our Benefit</h3>
-              <h4 class="text-[60px] font-medium leading-[4rem] py-5 ">The More Healthy <br> Food The Better</h4>
-
-              <div class="grid grid-cols-1 gap-y-3 py-4 mt-8">
+              <h3 class="text-[15px] font-medium mt-16 text-center lg:text-left">Our Benefit</h3>
+              <h4 class="text-[35px] font-medium text-center leading-[42px] py-5 lg:text-[60px] lg:leading-[72px] lg:text-left ">The More Healthy <br> Food The Better</h4>
+            
+              <div class="grid">
+              <div class="grid grid-cols-1 gap-y-3 py-4 mt-8 mx-auto lg:mx-0 ">
                 <p class="flex gap-5 text-[16px] font-normal"> <img src="./img/check.png" alt=""> Be Alive With Veggie Food.</p>
                 <p class="flex gap-5 text-[16px] font-normal"> <img src="./img/check.png" alt=""> It's The Place To Be.</p>
                 <p class="flex gap-5 text-[16px] font-normal"> <img src="./img/check.png" alt=""> Nonstop Veggie Food.</p>
                 <p class="flex gap-5 text-[16px] font-normal"> <img src="./img/check.png" alt=""> The Best Silk Dish In Town.</p>
                 <p class="flex gap-5 text-[16px] font-normal"> <img src="./img/check.png" alt=""> Truffles, Egg & Pumpkin Spice.</p>
               </div>
-
+            </div>
             </div>
           </div>
-        </section> -->
+        </section> 
 
          <section class="mb-36">
           <div class="justify-between items-center gap-x-5 lg:flex lg:px-56">
             <div class="lg:pl-8">
-              <h2 class="font-medium text-[15px] py-2">Our Stars</h2>
-              <h3 class="font-semibold text-[35px] px-12 text-center leading-[4rem] lg:text-[60px] lg:text-left">Veggie Food Goes <br class=" hidden lg:visible"> On And Always On</h3>
-                <div class="sold lg:flex gap-x-5 text-center py-10">
+              <h2 class="font-medium text-[15px] py-2 flex justify-center lg:justify-start">Our Stars</h2>
+              <h3 class="font-semibold text-[35px] px-12 text-center leading-[42px] lg:text-[60px] lg:text-left lg:leading-[60px] lg:px-0 ">Veggie Food Goes <br class=" hidden lg:visible"> On And Always On</h3>
+                <div class="sold lg:flex gap-x-5 text-center py-10 grid gap-y-10 ">
                   <div class="">
                     <h1 class="text-[40px] font-bold text-[#06C167]">1,500</h1>
                     <p class="text-[15px] font-medium opacity-[65%]">Sold Products</p>
@@ -145,12 +149,12 @@
                     <p class="text-[15px] font-medium opacity-[65%]">Official Stores</p>
                   </div>
                 </div>
-                <div class="bg-[#06C167] flex items-center w-[200px] text-white h-[68px] justify-center cursor-pointer text-[16px] font-normal">
+                <div class="bg-[#06C167] flex items-center w-[200px] text-white h-[68px] justify-center cursor-pointer text-[16px] font-normal mx-auto lg:mx-0 mb-10">
                   <a href="" class="flex gap-x-4 items-center">Get Special Promo <div><img src="./img/longarrow.png" alt="" class="px-1"></div></a>
               </div>
             </div>
 
-            <div class="">
+            <div class="flex justify-center py-5 ">
               <img src="./img/smoothie.png" alt="" class="border-x-8 px-10 pb-14 bg-[#F3FAFB] border-none">
             </div>
           </div>
